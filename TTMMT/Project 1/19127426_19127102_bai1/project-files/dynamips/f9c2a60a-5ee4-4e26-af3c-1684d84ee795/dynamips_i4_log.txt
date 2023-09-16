@@ -1,0 +1,37 @@
+Mar 16 21:29:59.371 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 16 21:29:59.372 HYPERVISOR: Started on IP = localhost, TCP port = 58666.
+Mar 16 21:29:59.873 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 16 21:29:59.874 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips 
+Mar 16 21:29:59.874 GENERAL: working_dir=D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips
+Mar 16 21:29:59.874 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips\23adbd77-ef53-431c-9294-275fc6ae20ea 
+Mar 16 21:29:59.874 GENERAL: working_dir=D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips\23adbd77-ef53-431c-9294-275fc6ae20ea
+Mar 16 21:29:59.875 HYPERVISOR: exec_cmd: vm create R6 6 c3600 
+Mar 16 21:29:59.876 VM: VM R6 created.
+Mar 16 21:29:59.876 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5012 
+Mar 16 21:29:59.877 HYPERVISOR: exec_cmd: c3600 get_mac_addr R6 
+Mar 16 21:29:59.877 HYPERVISOR: exec_cmd: c3600 set_chassis R6 3660 
+Mar 16 21:29:59.877 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Mar 16 21:29:59.878 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/USER/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 16 21:29:59.878 HYPERVISOR: exec_cmd: c3600 set_mac_addr R6 cc06.2258.0000 
+Mar 16 21:29:59.879 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Mar 16 21:29:59.879 HYPERVISOR: exec_cmd: vm set_ram R6 192 
+Mar 16 21:30:02.459 HYPERVISOR: exec_cmd: nio create_udp udp-1685bf04-71fb-449c-b620-c27210a57100 10012 127.0.0.1 10013 
+Mar 16 21:30:02.698 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-1685bf04-71fb-449c-b620-c27210a57100 
+Mar 16 21:30:02.699 HYPERVISOR: exec_cmd: vm get_status R6 
+Mar 16 21:30:14.393 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Mar 16 21:30:14.394 HYPERVISOR: exec_cmd: vm set_ghost_file R6 D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips\c3660-jk9o3s-mz.124-25d.image-192.ghost 
+Mar 16 21:30:14.395 HYPERVISOR: exec_cmd: vm get_status R6 
+Mar 16 21:30:14.397 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Mar 16 21:30:14.397 HYPERVISOR: exec_cmd: vm start R6 
+Mar 16 21:30:44.761 HYPERVISOR: exec_cmd: vm extract_config R6 
+Mar 16 21:41:07.888 HYPERVISOR: exec_cmd: vm get_status R6 
+Mar 16 21:41:07.888 HYPERVISOR: exec_cmd: vm stop R6 
+Mar 16 21:41:07.955 VM: VM R6 shutdown.
+Mar 16 21:41:07.955 HYPERVISOR: exec_cmd: vm extract_config R6 
+Mar 16 21:41:08.454 HYPERVISOR: exec_cmd: vm get_status R6 
+Mar 16 21:41:08.454 HYPERVISOR: exec_cmd: vm extract_config R6 
+Mar 16 21:41:08.455 HYPERVISOR: exec_cmd: vm delete R6 
+Mar 16 21:41:08.455 VM: VM R6 destroyed.
+Mar 16 21:41:08.456 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 16 21:41:08.883 HYPERVISOR: Stopped.
+Mar 16 21:41:08.883 GENERAL: reset done.

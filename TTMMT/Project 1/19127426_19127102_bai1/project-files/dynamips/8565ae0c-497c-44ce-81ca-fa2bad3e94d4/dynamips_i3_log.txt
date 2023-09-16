@@ -1,0 +1,37 @@
+Mar 16 21:29:58.800 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 16 21:29:58.801 HYPERVISOR: Started on IP = localhost, TCP port = 58663.
+Mar 16 21:29:59.313 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 16 21:29:59.313 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips 
+Mar 16 21:29:59.313 GENERAL: working_dir=D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips
+Mar 16 21:29:59.313 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips\94b1134e-cb3a-48e2-a21a-1998262ae7ee 
+Mar 16 21:29:59.314 GENERAL: working_dir=D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips\94b1134e-cb3a-48e2-a21a-1998262ae7ee
+Mar 16 21:29:59.314 HYPERVISOR: exec_cmd: vm create R5 5 c3600 
+Mar 16 21:29:59.316 VM: VM R5 created.
+Mar 16 21:29:59.316 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5011 
+Mar 16 21:29:59.317 HYPERVISOR: exec_cmd: c3600 get_mac_addr R5 
+Mar 16 21:29:59.317 HYPERVISOR: exec_cmd: c3600 set_chassis R5 3660 
+Mar 16 21:29:59.318 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Mar 16 21:29:59.319 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/USER/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 16 21:29:59.319 HYPERVISOR: exec_cmd: c3600 set_mac_addr R5 cc05.25d8.0000 
+Mar 16 21:29:59.319 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+Mar 16 21:29:59.319 HYPERVISOR: exec_cmd: vm set_ram R5 192 
+Mar 16 21:30:02.150 HYPERVISOR: exec_cmd: nio create_udp udp-bc516f23-a61a-43c8-ba6f-1ea87cbf3dbb 10008 127.0.0.1 10009 
+Mar 16 21:30:02.392 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 0 udp-bc516f23-a61a-43c8-ba6f-1ea87cbf3dbb 
+Mar 16 21:30:02.393 HYPERVISOR: exec_cmd: vm get_status R5 
+Mar 16 21:30:14.078 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Mar 16 21:30:14.079 HYPERVISOR: exec_cmd: vm set_ghost_file R5 D:\Downloads\19127102_19127426\19127426_19127102_bai1\project-files\dynamips\c3660-jk9o3s-mz.124-25d.image-192.ghost 
+Mar 16 21:30:14.080 HYPERVISOR: exec_cmd: vm get_status R5 
+Mar 16 21:30:14.080 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+Mar 16 21:30:14.081 HYPERVISOR: exec_cmd: vm start R5 
+Mar 16 21:30:44.394 HYPERVISOR: exec_cmd: vm extract_config R5 
+Mar 16 21:41:07.812 HYPERVISOR: exec_cmd: vm get_status R5 
+Mar 16 21:41:07.813 HYPERVISOR: exec_cmd: vm stop R5 
+Mar 16 21:41:07.894 VM: VM R5 shutdown.
+Mar 16 21:41:07.895 HYPERVISOR: exec_cmd: vm extract_config R5 
+Mar 16 21:41:08.189 HYPERVISOR: exec_cmd: vm get_status R5 
+Mar 16 21:41:08.189 HYPERVISOR: exec_cmd: vm extract_config R5 
+Mar 16 21:41:08.191 HYPERVISOR: exec_cmd: vm delete R5 
+Mar 16 21:41:08.191 VM: VM R5 destroyed.
+Mar 16 21:41:08.193 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 16 21:41:08.371 HYPERVISOR: Stopped.
+Mar 16 21:41:08.371 GENERAL: reset done.

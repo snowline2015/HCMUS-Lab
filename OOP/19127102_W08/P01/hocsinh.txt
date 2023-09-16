@@ -1,0 +1,13 @@
+3
+Ho ten: qwe
+Tuoi: 10
+Diem trung binh: 10
+
+Ho ten: asd
+Tuoi: 5
+Diem trung binh: 5
+
+Ho ten: zxc
+Tuoi: 30
+Diem trung binh: 0
+

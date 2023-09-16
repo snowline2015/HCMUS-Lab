@@ -1,0 +1,15 @@
+Gia Bao
+student
+10
+Tuan Kiet 
+pupil
+5
+Huy Hoang
+student
+9
+Minh Huy
+student
+8
+The Phu
+student
+2
